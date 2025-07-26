@@ -24,14 +24,22 @@
       <a href="mailto:hello@tapcrate.dev" class="button">📧 hello@tapcrate.dev</a>
     </p>
 
-    <!-- Optional future contact form (non-functional without backend)
-    <form>
-      <input type="text" placeholder="Your Name" required />
-      <input type="email" placeholder="Your Email" required />
-      <textarea placeholder="Your Message" required></textarea>
-      <button type="submit">Send</button>
-    </form>
-    -->
+    <form action="https://formspree.io/f/xwpqoykq" method="POST">
+  <label>
+    Your name:
+    <input type="text" name="name" required>
+  </label>
+  <label>
+    Your email:
+    <input type="email" name="email" required>
+  </label>
+  <label>
+    Message:
+    <textarea name="message" required></textarea>
+  </label>
+  <button type="submit">Send</button>
+</form>
+
   </main>
 
   <footer>
